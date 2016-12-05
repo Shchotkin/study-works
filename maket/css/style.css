@@ -1,0 +1,449 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+/* Main elements Style group */
+  /* Header part Style */
+.navBarMain {    
+    margin-top: 40px; 
+    width:auto;
+    height: 790px;
+    margin: auto;
+    background-image: url(../img/body.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBarStyle {
+    height: 120px;
+    padding: 40px 0 40px 0;
+}
+
+.jumbotStyle{
+    height: 559px;
+    background: inherit;
+    padding: 200px 0 200px 0;
+}
+
+.ankorStyle {
+    height: 111px;
+    padding:44px 0 44px 0;
+}
+
+.ankH3Style {
+    margin: auto;
+    padding: auto;
+}
+/* Main part style*/
+
+.mainSect1Style {
+    position: relative;
+    background: linear-gradient( to top, white 85% , #f5f6f7 15% );
+}
+
+
+
+/* Checkbox&Button */
+
+#chekDo1, #chekDo2, #chekDo3{
+	position:relative;
+	display:inline-block;
+	margin:27px;
+    }
+    #chekDo1:checked~.manBlock{
+    display:block;
+    }
+    #chekDo2:checked~.womenBlock{
+    display:block;
+    }
+    #chekDo3:checked~.childrenBlock{
+    display:block;
+    }
+
+ .buttonStyle{
+    background-color: #aa9b77;
+    margin: 10px auto;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+/*Fount group header&main*/
+
+.fontStyle {
+    font-family: 'Quicksand', sans-serif;
+    color:brown;
+}
+
+.fontStyleBTN {
+	font-family: 'Quicksand', sans-serif;
+    color:white;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.fontStyleBold {
+	font-weight: bold;
+    font-variant: small-caps;
+}
+
+.fontSize12{
+    font-size: 12pt;
+}
+
+.fontSize16{
+    font-size: 16pt;
+    
+}
+
+.fontSize48{
+    font-size: 48pt;
+}
+
+/*Fount group header&main*/
+
+.fontStyle {
+    font-family: 'Quicksand', sans-serif;
+    color:brown;
+}
+
+.fontStyleBTN {
+	font-family: 'Quicksand', sans-serif;
+    color:white;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.fontStyleBold {
+	font-weight: bold;
+    font-variant: small-caps;
+}
+
+.fontSize12{
+    font-size: 12pt;
+}
+
+.fontSize16{
+    font-size: 16pt;
+    
+}
+
+.fontSize48{
+    font-size: 48pt;
+}
+
+/* Slider style block */
+
+.manBlock, .womenBlock, .childrenBlock{
+  position: relative;
+  display:none;
+  width:80%;
+  height:30%;
+  margin: auto;
+  padding: 5px;
+  
+}
+
+.line{
+	border-bottom:1px solid brown;
+	padding-top: 10px;
+    }
+    .lineStyle{
+	   text-align: center;
+        }
+
+/* Slider Group */
+.slider {
+  overflow:hidden; /* Скрываем всё что за блоком слайдера */
+  position:relative;
+  width: 100%;
+  height:35%; 
+  margin: 25px auto;
+  }
+  
+  .slider .slides {
+  position:relative;
+  transition:1s; /* Задаем время изменения блока, отвечает за плавную прокрутку */
+  }
+     .slider .slides .slide {
+        float: left;
+        display:block;
+        }
+       /*.slider .slides .slide img{
+          
+        } */
+        
+        .slider .next {
+          position:relative;
+          display:inline-block;
+          float:none;
+          height:15px;
+          width:15px;
+          z-index:1;
+          cursor:pointer;
+          }
+          .slider .prev {
+            position:relative;
+            display:inline-block;
+          	float:none;
+            height:15px;
+            width:15px;
+            z-index:1;
+            cursor:pointer;
+            }
+			.slide {
+			  position: relative;
+			  display: inline-block;
+			  margin: 10px 20px;
+			  padding: 0px auto ;
+			  width:1.97%;
+			  height:auto; 
+			}
+            .boxIn{
+						position: relative;
+						display: inline-block;
+                        /*margin: 3px;*/
+						padding: auto;
+						width:280px;
+						height:366px;
+						background-color: #f5f6f7;
+						background-image: url(http://lorempixel.com/200/250);
+						background-repeat: no-repeat;
+						background-position: 35px 55px;
+						border: 5px solid transparent;
+						}
+						.boxIn:hover{
+    					border-color:blue;
+						}
+
+						.boxIn:hover > .eight{
+  						opacity: 1;
+  						}
+
+
+					
+/* IMG good's block */
+
+.three, .seven, .eight{
+  position:relative;
+  display: inline-block;
+}
+
+.seven{
+  color:black;
+  display:inline-block;
+  margin: 15px;
+  }
+.three{
+  display:inline-block;
+  margin: 240px 10px 10px 10px;
+  color:yellow;
+ }
+
+
+.five, .six{
+  display: inline-block ;
+  padding: 0px 7px;
+}
+
+.eight{
+        display:inline-block;
+        margin: 10px 10px 10px 110px;
+        opacity: 0;
+        /*left:280px;*/
+       }
+
+.blue{
+		  position:relative;
+		  display: inline-block;
+		  width: 14px;
+			height: 14px;
+			background: blue;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			border-radius: 7px;
+		  }
+		  .yellow{
+		  position:relative;
+		  display: inline-block;  
+		  width: 14px;
+			height: 14px;
+			background: yellow;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			border-radius: 7px;
+		  }
+		  .black{
+		  position:relative;
+		  display: inline-block;  
+		  width: 14px;
+			height: 14px;
+			background: black;
+			-moz-border-radius: 7px;
+			-webkit-border-radius: 7px;
+			border-radius: 7px;
+		  }
+      
+/*Footer part style*/
+.foterMainStyle{
+    position: relative;
+    display: block;
+    width:auto;
+    height:2240px;
+}
+
+.firstElemFooterStyle{
+  position:relative;
+  display: block;
+  width:auto;
+  height:397px;
+  background-color: #aa9b77;
+  margin: auto;
+  /*padding: 69px 21.8%;*/
+}
+
+.oneElemStyle{
+  position:relative;
+  display: block;
+  width:auto;
+  height:auto;
+  /*width:710px;
+  height:250px;*/
+  border:1px solid #918363;
+  margin: 69px 21.8%;
+  /*overflow: hidden;*/
+}
+
+.caption{
+  position:absolute;
+  width:15.5%;
+  top:-10px;
+  left:42%;
+  overflow: visible;
+  background-color: #aa9b77;
+  color:#918363;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+
+}
+
+.lorIps{
+    position: relative;
+    width:auto;
+    height:auto;
+    /*text-align: center;*/
+    margin: 10%;
+    padding: auto;
+    /*padding-bottom: 10%;
+    margin: auto;*/
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.secondElemFooterStyle{
+    position: relative;
+    display: block;
+    width:100%;
+    height:70px;
+    background-color: #535253;
+    margin: 0;
+    padding: auto;
+}
+
+.spryteStyle{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    height: 70px;
+    padding: 0;    
+}
+
+.spryteTwittreImage{
+    width: 36px;
+    height: 36px;
+    background-image: url(../img/twitter.png);
+    background-position: left 15px, bottom 3px ;
+    background-repeat: no-repeat;
+    /*top:-10px;*/                
+}
+
+.someFrazeSize{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 46px;
+    list-style: none;
+    vertical-align: middle;
+    top: -15px;
+}
+
+.spryteStyle li {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+
+.thirdElemFooterStyle{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 350px;
+    background-color: #424242;
+    padding:105px 0;
+}
+
+.strongFooterStyle{
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.pFooterStyle{
+    position: relative;
+    display: block;
+    padding-top: 10px;
+}
+
+.navPillStyle{
+    border-right: 1px solid #918363;
+}
+
+.side-right{
+    position: absolute;
+    right: 0;
+}
+
+.side-right-p{
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+
+
+/*Fount group header&main*/
+
+.fontStyle {
+    font-family: 'Quicksand', sans-serif;
+    color: white ;
+}
+
+.fontSize12{
+    font-size: 12pt;
+
+}
+
+.fontSize16{
+    font-size: 16pt;
+}
+
+.fontSize48{
+    font-size: 48pt;
+}
+
+.ankorFontColor{
+    color: white;
+}
+
+.fontColorMain {
+    color: #333333;
+}
+     
