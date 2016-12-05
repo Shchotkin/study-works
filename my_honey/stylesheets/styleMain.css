@@ -1,0 +1,264 @@
+
+/* ########### Main block ############ */
+
+.mainPage {
+    position: relative;
+    display: block;
+    width: auto;
+}
+
+.mainPage:hover .arrHov {
+    height: 35px;
+}
+
+.mainPage:hover .anime{
+    animation-duration: 0s;
+}
+
+.mainPage:hover .arrowIcon{
+    animation-name: verticalAnime;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    
+   }
+   @keyframes verticalAnime {
+    from {
+     margin-top: 0;
+     }
+    to {
+     margin-top: 10px;
+     }
+}
+
+@media screen and (max-width: 711px){
+   .anime{
+    animation-duration: 0s;
+}
+    
+    .arrHov {
+    height: 35px;
+} 
+
+   .arrowIcon{
+    animation-name: verticalAnime;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    }
+   @keyframes verticalAnime {
+    from {
+     margin-top: 0;
+     }
+    to {
+     margin-top: 10px;
+     }
+   }
+}
+
+.title{
+    position: relative;
+    display: block;
+    width:auto;
+    padding: 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 320px;
+    color: white;
+    text-align: center;
+    transform: rotate(340deg);
+    }
+
+@media screen and (max-width: 711px){
+    .title{
+        display: none;
+        }
+}
+
+.callToAction {
+    position: relative;
+    display: block;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+   }
+
+.anime {
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+   }
+   @-webkit-keyframes anime {
+    from {
+     opacity: 0.09;
+     }
+    to {
+     opacity: 1;
+     }
+   }
+   
+/*
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1170px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+  
+}
+
+   
+*/
+/*############ Sell part ############*/
+
+
+.titlSellPanet{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+.logaSellPanel{
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px ridge #d9ffb3;
+    border-radius: 10px;
+}
+
+.sellImg{
+    border: 5px double #FDD302;
+    border-radius: 10px;
+    float: left;
+}
+
+.labelSwocase{
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    color: #e63900;
+   
+   /* line-height: 2.5em;
+    text-align: center;*/
+    
+}
+
+.switch{
+    border: 5px solid #e63900;
+   /* box-shadow: 5px 5px 5px 5px #e63900;*/
+}
+
+.price{
+    text-align: center;
+}
+
+.buy{
+    width: 80px;
+    height: 36px;
+    background-color: #ffcc00;
+    box-shadow: 0 5px 5px 0 #e63900; 
+    border: 3px solid #ffd9cc;
+    border-radius: 26px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/*################## Artical style ##########*/
+
+
+
+.pImg1, .pImg2, .gallery img, .product img{
+    border: 5px double #FDD302;
+    border-radius: 10px;
+    margin: 0.5em;
+}
+
+.pImg1{
+    width: auto;
+    float: left;
+}
+
+.pImg2{
+    float: right;
+}
+.gallery{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 0 auto 1em;    
+}
+
+.gallery img{
+    width: 90%;
+    }
+
+
+
+.titleArtical{
+    padding-top: 0.5em;    
+    font-size: 36px;
+}
+
+
+
+/*############# Contacts #############*/
+
+.titleAbout{
+    font-size: 36px;
+    text-align: center;
+    
+}
+
+.aboutP{
+    text-align: center;
+}
+
+.comments textarea{
+    position: relative;
+    display: block;
+    margin: 0 12%;
+    padding: 0 auto;
+    text-align: center;
+    width: 90%;
+    border: 7px double #ffcc00;
+    border-radius: 20px;
+}
+
+.comments input{
+    margin: 0.3em;
+    width: 80px;
+    height: 36px;
+    background-color: #ffcc00;
+    box-shadow: 0 5px 5px 0 #e63900; 
+    border: 3px solid #ffd9cc;
+    border-radius: 26px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.titleResponse{
+    font-size: 24px;
+}

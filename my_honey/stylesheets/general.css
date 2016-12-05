@@ -1,0 +1,47 @@
+body{
+    background: #FDD302;
+    background-image: url(../img/imgonline-com-ua-resize-6uBHaUH9W9.png);
+    background-repeat: no-repeat;
+    background-position: 50% 6em;
+    }
+
+
+@media screen and (max-width: 676px) {
+    body {
+        background: #FDD302;
+    }
+}
+
+footer{
+    background: #e63900;
+   /* margin-top: 0.1em*/;
+}
+
+h3, h4, h5, h6 {
+    position: relative;
+    margin: 0.5em auto;
+    padding: 0 auto 1em;
+    color: #FDD302;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    }
+
+p{
+    color: #FDD302;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    color: #e63900;
+    font-size: 24px;
+    text-align: justify;
+    padding: 0 auto 1em;
+    }
+
+.about, .contacts, .sellPart, .response {
+    position: relative;
+    margin: 1em auto;
+    width: 90%;
+    border: 7px double #ffcc00;
+    border-radius: 20px;
+    background-color: #f2ffe6;
+    background-image: none;
+}
