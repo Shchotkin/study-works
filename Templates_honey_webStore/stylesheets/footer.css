@@ -1,0 +1,39 @@
+
+footer a {
+    margin: 0 auto 1em;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+   
+}
+
+.cosial a div{
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 34px;
+    margin: 0.5em;
+    }
+
+.cosial a:nth-child(1) div{
+    background: url(../img/facebook.png);
+}
+.cosial a:nth-child(2) div{
+    background-image: url(../img/vkontakte.png);
+}
+.cosial a:nth-child(3) div{
+    background-image: url(../img/odnoklassniki.png);
+}
+.cosial a:nth-child(4) div{
+    background-image: url(../img/google.png);
+}
+.cosial a:nth-child(5) div{
+    background-image: url(../img/youtube.png);
+}
+.cosial a:nth-child(6) div{
+    background-repeat: no-repeat;
+    background-image: url(../img/envelope.png);
+    background-position: center;    
+}
