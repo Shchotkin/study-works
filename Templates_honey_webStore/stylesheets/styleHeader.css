@@ -1,0 +1,92 @@
+
+
+
+/* ########### Header block ###########   */
+
+header{
+    width: auto;
+    outline: 0;
+   }
+
+header li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.title1{
+    position: relative;
+    display: block;
+    margin-top: 0.5em;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    }
+
+@media screen and (max-width: 698px){
+     .title1{
+        float: none;
+         text-align: center;
+        }
+}
+
+@media screen and (max-width: 361px){
+     .title1{
+        display: none;
+        }
+}
+
+
+ul.headerMenu{
+    position: relative;
+    display: flex;
+    float:right;
+    width: 100%;
+    margin: 0.6em auto 0;
+    padding: 0 auto;
+    list-style-type: none;
+    }
+
+ul.headerMenu li {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+@media screen and (max-width: 698px) {
+ 
+    .logoImg{
+        display: block;
+        margin: 0 auto 1em;
+    }
+    
+    ul .headerMenu{
+        display: block;
+        padding: 0 auto;
+    }
+    
+    ul .headerMenu li{
+        float:right;
+        margin: 0 auto;
+    }
+ 
+}
+
+.logoImg{
+    display: block;
+    float: none;
+    margin: 0.5em auto 0;
+    padding: 0 auto;
+    position: relative;
+    display: block;
+    border-radius: 50px;
+    }
+
+
+@media screen and (max-width: 698px){
+    
+}
